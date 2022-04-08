@@ -1,17 +1,14 @@
 import './App.css';
-import ExpenseItem from './components/ExpenseItem/ExpenseItem';
+import ExpensesList from './components/ExpensesList/ExpensesList';
 
 function App() {
-  const expenses = [ {'title': 'Car Insurance', 'amount': 294.67, 'date': new Date(2021, 5, 12)}];
+  const expenses = [
+    {'title': 'Car Insurance', 'amount': 294.67, 'date': new Date(2021, 5, 12)},
+    {'title': 'Toilet paper', 'amount': 24.67, 'date': new Date(2021, 4, 10)}
+  ];
   return (
     <div className="App">
-      <header className="App-header">
-        <ExpenseItem
-          title={expenses[0].title}
-          amount={expenses[0].amount}
-          date={expenses[0].date}
-        />
-      </header>
+        <ExpensesList items={expenses}/>
     </div>
   );
 }
