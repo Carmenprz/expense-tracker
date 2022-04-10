@@ -1,40 +1,21 @@
 import ExpenseItem from './ExpenseItem'
-import Card from '../UI/Card'
-import ExpenseFilter from '../ExpenseFilter/ExpenseFilter'
-import { useState } from 'react'
 
-export default function ExpensesList(props) {
-  const [yearSelected, setYearSelected] = useState('2021')
-  //we define the function we want to pass down
-  const SelectedDateHandler = (selectedDate) => {
-    setYearSelected(selectedDate)
-  }
-
-  const filteredExpenses = props.items.filter((expense) => {
-    return expense.date.getFullYear().toString() === yearSelected
-  })
-
-  let expensesContent = <p>No expenses found.</p>
-  if (filteredExpenses.length > 0) {
-    expensesContent = filteredExpenses.map((expense) => (
-      <ExpenseItem
-        key={expense.id}
-        title={expense.title}
-        amount={expense.amount}
-        date={expense.date}
-      />
-    ))
+const ExpensesList = (props) => {
+  if (props.items.length === 0) {
+    return <h2 className="expenses-list__fallback">Found no expenses.</h2>
   }
 
   return (
-    <div>
-      <Card>
-        <ExpenseFilter
-          selected={yearSelected}
-          onSelectedDate={SelectedDateHandler}
+    <ul className="expenses-list">
+      {props.items.map((expense) => (
+        <ExpenseItem
+          key={expense.id}
+          title={expense.title}
+          amount={expense.amount}
+          date={expense.date}
         />
-        {expensesContent}
-      </Card>
-    </div>
+      ))}
+    </ul>
   )
 }
+export default ExpensesList
