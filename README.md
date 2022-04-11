@@ -6,7 +6,7 @@
 <a href="https://github.com/Carmenprz/expense-tracker"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-[![Expense Tracker Screen Shot][product-screenshot]]
+<!-- [![Expense Tracker Screen Shot][product-screenshot]]() -->
 <br />
 
 ## Getting Started
