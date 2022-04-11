@@ -9,7 +9,9 @@ const initial_expenses = [
   { title: 'Books', amount: 55.65, date: new Date(2020, 4, 10) },
   { title: 'Health Insurance', amount: 24.67, date: new Date(2021, 11, 10) },
   { title: 'Toilet paper', amount: 24.67, date: new Date(2020, 4, 10) },
-  { title: 'Mom\'s present', amount: 140.67, date: new Date(2020, 9, 10) }
+  { title: 'Mom\'s present', amount: 140.67, date: new Date(2020, 9, 10) },
+  { title: 'New chair', amount: 50.45, date: new Date(2022, 4, 11) },
+  { title: 'Car Insurance', amount: 140.67, date: new Date(2022, 1, 10) }
 ]
 
 function App() {

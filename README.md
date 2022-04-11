@@ -1,6 +1,13 @@
-# Expense tracker project
+<h3 align="center">Expense tracker project</h3>
 
-A little project created to practice React.js basics.
+<p align="center">
+    A little project created to practice React.js basics.
+</p>
+<a href="https://github.com/Carmenprz/expense-tracker"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+[![Expense Tracker Screen Shot][product-screenshot]]
+<br />
 
 ## Getting Started
 
@@ -29,3 +36,5 @@ To get a local copy up and running follow these simple example steps.
 - [x] Practice Lift State Up concept.
 - [x] Two-way binding
 - [x] Output conditional content.
+
+[product-screenshot]: public/screenshot.png
