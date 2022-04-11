@@ -1,10 +1,12 @@
+<h3 align="center">$</h3>
 <h3 align="center">Expense tracker project</h3>
 
 <p align="center">
     A little project created to practice React.js basics.
+    <br />
+    <a href="https://github.com/Carmenprz/expense-tracker"><strong>Explore the docs »</strong></a>
+    <br />
 </p>
-<a href="https://github.com/Carmenprz/expense-tracker"><strong>Explore the docs »</strong></a>
-<br />
 <br />
 <!-- [![Expense Tracker Screen Shot][product-screenshot]]() -->
 <br />
