@@ -29,12 +29,11 @@ To get a local copy up and running follow these simple example steps.
    npm start
    ```
 
-## Roadmap
+## Practiced concepts Roadmap
 
-- [x] Handling form submission.
-- [x] Use the UseState hook.
-- [x] Practice Lift State Up concept.
-- [x] Two-way binding
+- [x] Handle form submission.
+- [x] Practice UseState hook.
+- [x] Learn Lift State Up concept.
+- [X] Work with events and State.
+- [x] Implement Two-way binding.
 - [x] Output conditional content.
-
-[product-screenshot]: public/screenshot.png
