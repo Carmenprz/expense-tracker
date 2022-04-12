@@ -8,7 +8,11 @@
     <br />
 </p>
 <br />
-<!-- [![Expense Tracker Screen Shot][product-screenshot]]() -->
+<div align="center">
+    <img src="public/screenshot.png" alt="app screen shot" height="500px">
+    </br>
+    <figcaption>Expense Tracker App</figcaption>
+</div>
 <br />
 
 ## Getting Started
@@ -39,5 +43,3 @@ To get a local copy up and running follow these simple example steps.
 - [X] Work with events and State.
 - [x] Implement Two-way binding.
 - [x] Output conditional content.
-
-[product-screenshot]: public/screenshot.png
